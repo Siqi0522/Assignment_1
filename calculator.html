@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Grade Calculator</title>
+<link rel="stylesheet" href="calculator.css" />
+<script type="text/javascript" src="calculator.js"></script>
+</head>
+
+
+<body>
+<div id="container"> 
+	<div id="header"></div> 
+	<div id="menu"></div> 
+	<div id="content"> 
+		<h1 style="font-family:Decorative">Grade Calculator</h1>
+		<div id="news">
+			<h3 style="font-family:Decorative"><font color = "A00000">Activities</font></h3>
+			<p style="font-family:Decorative">Give grades to the numeric activities:</p>
+			<table style="border:2px #808080 solid; padding:5px;" rules="all"; cellpadding='5px'; cellheight='5px';>
+				<tr>
+			        <th align="left"><b> Name </b></th>
+				    <th align="left"><b>Short Name</b></th>		
+				    <th align="left"><b>  Grade  </b></th>
+				    <th align="left"><b>Percentage</b></th>
+				</tr>
+				<tr>
+				    <td>Activity 1</td>
+				    <td>A1</td>		
+				    <td><form><input id="a1_1" class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test1_1();"/> / <input id="a1_2"  class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test1_2();" /></form></td>
+				    <td id="pa1"><button onclick="cal_per_a1()">click here</button></td>
+				</tr>
+				<tr>
+				    <td>Activity 2</td>
+				    <td>A2</td>		
+				    <td><form><input id="a2_1" class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test2_1();"/> / <input id="a2_2"  class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test2_2();"/></form></td>
+				    <td id="pa2"><button onclick="cal_per_a2()">click here</button></td>
+				</tr>
+				<tr>
+				    <td>Activity 3</td>
+				    <td>A3</td>		
+				    <td><form><input id="a3_1" class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test3_1();"/> / <input id="a3_2" class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test3_2();"/></form></td>
+				    <td id="pa3"><button onclick="cal_per_a3()">click here</button></td>
+				</tr>
+				<tr>
+				    <td>Activity 4</td>
+				    <td>A4</td>		
+				    <td><form><input id="a4_1" class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test4_1();"/> / <input id="a4_2" class="inputvalue" type="text" maxlength="4" name="username" onkeyup="value=this.value.replace(/\D+/g,'')" onchange="test4_2();"/></form></td>
+				    <td id="pa4"><button onclick="cal_per_a4()">click here</button></td>
+				</tr>
+				<tr>
+				    <td><b>Total</b></td>
+				    <td></td>
+				    <td></td>
+				    <td id="special"></td>
+				</tr>
+			</table>
+            <div>
+            	<input id="average" type="button" onclick="getAverage()" value="Average" style="width:10%;height:2%;font-size:15px;">
+            	<input id="mean" type="button" onclick="getMean()" value="Mean" style="width:10%;height:2%;font-size:15px;">
+            </div>
+		</div>
+	</div>
+    <div id="content2"></div>
+	<div id="footer"></div> 
+</div>
+</body>
+
+
+</html>

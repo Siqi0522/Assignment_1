@@ -1,0 +1,116 @@
+#container
+{
+	width:1000px;
+	height:520px;
+}
+
+#header
+{
+	background-color:#A00000;
+	height:5%;
+}
+
+#menu
+{
+	background-color:#A00000;
+	height:90%;
+	width:7%;
+	float:left;
+}
+
+#content
+{
+	background-color:#EEEEEE;
+	height:90%;
+	width:86%;
+	float:left;
+}
+
+#news
+{
+	background-color:#e9f2fb;
+	float:clear;
+	margin-left:20px;
+	margin-right:150px;
+	padding-left:10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	height:75%;
+}
+
+h1
+{
+	margin-top:40px;
+	margin-left:20px;
+	margin-right:150px;
+	font-weight: normal;
+}
+
+h3
+{
+	color:A00000;
+	font-weight: normal;
+}
+
+table
+{
+	border:3px 808080 solid;
+	width: 100%;
+	height: 50%;
+	font-size:12px;
+}
+
+th
+{
+	background-color: 808080;
+}
+
+td,th
+{
+	font-family:Helvetica;
+	font-weight: normal;
+	width: 25%;
+	height:2%;
+}
+
+#content2
+{
+	background-color:#A00000;
+	width:7%;
+	float:right;
+	height:90%;
+}
+
+#footer
+{
+	background-color:#A00000;
+	height:5%;
+	clear:both;
+	text-align:center;
+}
+
+.inputvalue
+{
+	width:40%;
+}
+
+#average
+{
+	float:right;
+	margin-top: 3%;
+	background-color: #A00000;
+	border:none;
+	color:#FFFFFF;
+	font-weight: normal;
+}
+
+#mean
+{
+	float:right;
+	margin-top: 3%;
+	margin-right:2%;
+	background-color: #A00000;
+	border:none;
+	color:#FFFFFF;
+	font-weight: normal;
+}
